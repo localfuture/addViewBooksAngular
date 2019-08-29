@@ -1,0 +1,16 @@
+<div class="d-flex flex-wrap mx-5 my-5" ngFor="let data of mydata">
+  <div class="card mx-5 my-5" style="width: 18rem;">
+    <div class="card-body">
+      <h3 class="card-title"><strong>Title :</strong>{{data.title}}</h3>
+      <h5 class="card-text">{{data.author}}</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><strong>Publisher :</strong>{{data.publisher}}</li>
+      <li class="list-group-item"><strong>Published on :</strong>{{data.published}}</li>
+      <li class="list-group-item"><strong>MRP :</strong>{{data.price}}</li>
+    </ul>
+    <div class="card-body">
+      <p class="card-text"><strong>Description :</strong>{{data.description}}</p>
+    </div>
+  </div>
+</div>
